@@ -109,23 +109,41 @@ li {
   margin: 0 auto;
 }
 /*=================================
-  Header styling starts here
-=================================*/
-
-
-
-
-
-
-/*=================================
-  Header styling ends here
-=================================*/  
-
-/*=================================
   main styling starts here
 =================================*/
 
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  /* text-align: center; */
+}
 
+.content p {
+  font-size: 20px;
+  line-height: 34px;
+  color: #666;
+}
+
+.read-more { display: none ;}
+
+.content h1 { font-size: 30px; }
+
+.read-more-btn {
+  padding: 15px 30px;
+  background-color:lightslategrey;
+  color:lime;
+  text-decoration: none;
+}
+
+.read-more-btn:hover {
+  color: lightslategrey;
+  background-color: lime;
+  transition: .4s ease-in-out;
+}
 
 
 
